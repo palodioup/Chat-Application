@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  --color-background: #333;
+  --border: cyan;
+  --whitecolor: white;
+  --button-color: #242424;
+}
+
+body {
+  background-color: var(--color-background);
+}
+
+.parent {
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  border: 1.5px var(--border) solid;
+  padding: 135px;
+  border-radius: 20px;
+  background-color: var(--whitecolor);
+  display: block;
+  color: var(--color-background);
+}
+
+.dialog {
+  text-align: center;
+  background-color: var(--color-background);
+  width: 300px;
+  padding: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: var(--whitecolor);
+  margin-bottom: 25px;
+}
+
+.return-div {
+  margin-top: 200px;
+}
+
+.return-div input {
+  background-color: var(--color-background);
+  color: var(--whitecolor);
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+}
+
+.return-div button {
+  padding: 10px;
+  background-color: var(--button-color);
+  color: var(--whitecolor);
+  border: none;
+  border-radius: 15px;
+}
