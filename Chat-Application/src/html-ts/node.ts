@@ -11,6 +11,7 @@ export const sendMessage = () => {
     toAppend.innerHTML = `${input.value}`;
     dialogue.appendChild(toAppend);
     input.value = "";
+    errorMsg.innerHTML = ``
   }
   setTimeout(() => {
     errorMsg.innerHTML = ``;
@@ -20,4 +21,5 @@ export const sendMessage = () => {
 export const clearMessageBox = () => {
   dialogue.innerHTML = "";
   input.value = "";
+  errorMsg.innerHTML= ``
 };
