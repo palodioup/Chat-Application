@@ -37,8 +37,21 @@ body {
   margin-bottom: 25px;
 }
 
+.dialog:hover {
+  transform: translateY(-10px);
+}
+
 .return-div {
   margin-top: 200px;
+}
+
+span {
+  display: flex;
+}
+
+span #btn,
+#btn-cls {
+  margin-left: 50px;
 }
 
 .return-div input {
@@ -50,10 +63,6 @@ body {
   width: 500px;
 }
 
-.return-div button {
-  padding: 10px;
-  background-color: var(--button-color);
-  color: var(--whitecolor);
-  border: none;
-  border-radius: 15px;
+#error {
+  color: orangered;
 }
