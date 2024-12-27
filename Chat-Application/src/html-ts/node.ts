@@ -18,10 +18,6 @@ export const sendMessage = () => {
 };
 
 export const clearMessageBox = () => {
-  if (dialogue.innerHTML = ``) {
-    errorMsg.innerHTML = "Message box is already empty";
-  } else {
-    dialogue.innerHTML = "";
-    input.value = "";
-  }
+  dialogue.innerHTML = "";
+  input.value = "";
 };
